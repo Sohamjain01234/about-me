@@ -1,0 +1,118 @@
+.gradient-background { 
+    background: #1513A5;
+    background: linear-gradient(0deg, rgba(21, 19, 165, 1) 0%, rgba(209, 15, 18, 1) 100%);
+}
+
+.main-container-flex{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 5px solid red; */
+}
+
+.hobbies-title-card-grid { 
+    display: grid;
+    gap: 10px;
+    width: 400px;
+    height: 500px;
+    /* background: blue; */
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.svg-image-container { 
+    grid-row: 2 / 4;
+    grid-column: 2 /4;
+    overflow: hidden;
+}
+
+.title-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 2 /9;
+    grid-row: 2/4;
+    /* background-color: white; */
+}
+
+.description-container { 
+    grid-row: 5 / 9;
+    grid-column: 1/9;
+    /* background-color: white; */
+} 
+
+.svg-image { 
+    height: 100%;
+    width: 100%;
+    object-fit: fit;
+}
+
+.description { 
+    font-size: 1.15rem;
+    color: black;
+    height:100%;
+    width:100%;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title { 
+    font-family: "Instrument Serif", serif;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.image-container { 
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    /* border: 10px yellow solid; */
+}
+
+.image-container > img{ 
+    width: 70%;
+}
+
+#idol-image-container { 
+    width: auto
+} 
+
+.div-container-education-logo {
+    /* border: 5px solid black; */
+}
+
+.education-logo-label-container { 
+    width: 400px;
+    height: 500px;
+}
+
+.education-logo-label-container > .uni-logo > img {
+    width: 100%;
+}
+
+.div-container-education-logo { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.NUS { 
+    width: 80%;
+}
+
+
+h2 { 
+    color: black;
+}
+
+.uni-logo { 
+    margin-bottom: 2.5rem;
+}
